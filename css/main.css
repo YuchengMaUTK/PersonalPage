@@ -1,0 +1,114 @@
+.header{
+	position: relative;
+	
+}
+
+#warpper .header .logo{
+	text-align:center;
+	font-size: xx-large;
+	background-color: darkorange;
+	overflow: auto;
+}
+
+
+
+#warpper .header ul{
+		text-align:center;
+		background-color: darkorange;
+		list-style-type:none;
+		overflow: auto;
+
+
+	}
+ 
+ 
+#warpper .header ul.nav li{
+	position:relative;
+	display: inline-block;
+	font-size: 1.875rem;
+	padding:0 16px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.3);
+	list-style: none outside none;
+
+	
+	
+	}
+
+#warpper .header ul.nav a{
+		padding: 10px;/*每个按钮的宽度由锚文本的尺寸决定 所以不设置显示的宽度 而是在每个锚链接的左右设置一定的内边距*/
+		line-height: 2.2;
+		text-decoration:none;
+		color:#5F6360;
+		
+	}
+ 
+	
+#warpper .header ul.nav li ul{
+
+		width:auto;
+		position:absolute;
+		display: none;
+		margin-top:2px;
+ 
+	}
+#warpper .header ul.nav li:hover{
+	
+		background-color: whitesmoke;
+
+}
+
+.main .news{
+	float: left;
+	margin-left: 0.4375rem;
+	width: 40rem;
+	position: absolute;
+	margin:30px 30px;
+	height: 80rem;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+.main .news .newstitle{
+	margin:10px 10px;
+	color: #7FCCF7;
+}
+
+.main .news .newslist{
+	font-size: large;
+	margin:20px 30px;
+	color:#A8A8A8;
+	
+}
+
+.main .news .newslist li{
+	list-style-type: none;
+	margin-bottom: 20px;
+	
+}
+
+.main .vision{
+	
+	left: 41rem;
+	width: 95rem;
+	position: absolute;
+	margin:30px 30px;
+	height: 80rem;
+	border: 1px solid #ccc;
+}
+
+.main .vision .visiontitle h2{
+	margin:10px 10px;
+	color: #7FCCF7;
+}
+.main .vision .visiontitle span{
+	margin:10px 10px;
+	color: #888888;
+	
+}
+
+.main .vision .video{
+	margin:10px 20px;
+	
+	
+}
+
+
