@@ -1,0 +1,63 @@
+.header{
+	position: relative;
+	
+}
+
+#warpper .header .logo{
+	text-align:center;
+	font-size: xx-large;
+	background-color: darkorange;
+	overflow: auto;
+}
+
+.header img{
+	text-align:center;
+	
+}
+
+
+#warpper .header ul{
+		text-align:center;
+		background-color: darkorange;
+		list-style-type:none;
+		overflow: auto;
+		height: 45px;
+
+
+	}
+ 
+ 
+#warpper .header ul.nav li{
+	position:relative;
+	display: inline-block;
+	font-size: 1.3rem;
+	padding:0 16px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.3);
+	list-style: none outside none;
+
+	
+	
+	}
+
+#warpper .header ul.nav a{
+		padding: 10px;/*每个按钮的宽度由锚文本的尺寸决定 所以不设置显示的宽度 而是在每个锚链接的左右设置一定的内边距*/
+		line-height: 2.2;
+		text-decoration:none;
+		color:#5F6360;
+		
+	}
+ 
+	
+#warpper .header ul.nav li ul{
+
+		width:auto;
+		position:absolute;
+		display: none;
+		margin-top:2px;
+ 
+	}
+#warpper .header ul.nav li:hover{
+	
+		background-color: whitesmoke;
+
+}
