@@ -70,7 +70,7 @@
 .main .news{
 	float: left;
 	margin-left: 0.4375rem;
-	width: 40rem;
+	width: auto;
 	position: absolute;
 	margin:30px 30px;
 	height: 80rem;
@@ -98,7 +98,7 @@
 .main .vision{
 	float: left;
 	left: 41rem;
-	width: 95rem;
+	width: aotu;
 	position: absolute;
 	margin:30px 30px;
 	height: 80rem;
